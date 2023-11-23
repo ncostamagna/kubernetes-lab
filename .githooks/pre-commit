@@ -1,0 +1,3 @@
+#!/bin/sh
+
+markdown-toc -i readme.md
