@@ -11,6 +11,7 @@
   * [Dashboard](#dashboard)
   * [Kubectl with MicroK8s](#kubectl-with-microk8s)
 - [Kubernates](#kubernates)
+- [Helm](#helm)
 
 <!-- tocstop -->
 
@@ -123,4 +124,13 @@ kubectl port-forward nginx 8080:80 # nginx (pod name), from 80 (nginx) to 8080 o
 # In this way, if we execute:
 curl localhost
 # in our machine, we will able to enter without to enter to cluster
+```
+
+# Helm
+
+```sh
+helm install [name] . # install app
+helm list # list all app
+helm upgrade [name] . # update changes
+helm delete [name] # delete app
 ```
